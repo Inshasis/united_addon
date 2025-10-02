@@ -59,7 +59,7 @@ def get_dashboard_data():
             formatted_ledgers.append({
                 "transaction_id":name,
                 "date": ledger.date,
-                "narration": narration,
+                "sales_invoice": narration,
                 "amount": amount,
                 "type": ledger_type
             })
